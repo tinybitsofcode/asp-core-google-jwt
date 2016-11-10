@@ -1,7 +1,7 @@
 {
   "iisSettings": {
     "windowsAuthentication": false,
-    "anonymousAuthentication": true,
+    "anonymousAuthentication": false,
     "iisExpress": {
       "applicationUrl": "http://localhost:1479/",
       "sslPort": 0
@@ -16,13 +16,8 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "asp_core_google_jwt": {
-      "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "http://localhost:5000/api/values",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+    "Console": {
+      "commandName": "Project"
     }
   }
 }
