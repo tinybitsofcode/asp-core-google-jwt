@@ -12,7 +12,7 @@ Verify JWT tokens provided by Google Firebase within ASP CORE
  Try making a request to `http://localhost:5000/api/values`. If no authentication header is provided, you should get a `HTTP 401` error.
 
  Get hold of a Google Firebase ID token ([MORE HERE](https://firebase.google.com/docs/auth/admin/verify-id-tokens)) and repeat the above call with the following header:
-  > Authorization: Bearer <the_id_token>
+  > `Authorization: Bearer <the_id_token>`
 
   The link above provides the details of this implementation (verifying ID Tokens using Google signing certificates).
 
